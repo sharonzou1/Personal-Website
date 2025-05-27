@@ -1,3 +1,22 @@
+.navbar-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navbar-container ul {
+        list-style-type: none;
+        display: flex;
+        gap: 20px; /* spacing between items */
+        padding: 0;
+        margin: 0;
+    }
+
+    .navbar-container li a {
+        text-decoration: none;
+    }
+
+
 section p {
   margin-left: auto;
   width: fit-content;
