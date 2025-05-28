@@ -1,24 +1,24 @@
 body {
-      margin: 0;
-      padding: 0;
-      scroll-behavior: smooth; /* Smooth scrolling */
+    background-color: #FFFD74;
+    margin: 0;
+    padding: 20%;
 }
 
 .navbar-container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
-    .navbar-container ul {
-        list-style-type: none;
-        display: flex;
-        gap: 20px; /* spacing between items */
-        padding: 0;
-        margin: 0;
-    }
+.navbar-container ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px; /* spacing between items */
+    padding: 0;
+    margin: 0; 
+}
 
-    .navbar-container li a {
-        text-decoration: none;
-    }
+.navbar-container li a {
+    text-decoration: none;
+} 
 
