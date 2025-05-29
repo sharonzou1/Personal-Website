@@ -8,18 +8,24 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>About</title>
+<style>
+    html {
+      scroll-behavior: smooth;
+    }
+</style>
+
+<title>Index</title>
 </head>
 
 <body>
 
 <div class="navbar-container">
-<nav >
-    <ul>
-        <li> <a href = "index.html" > About </a></li>
-        <li> <a href = "skills.html" > Skills </a></li>
-        <li> <a href = "projects.html" > Projects </a></li>
-    </ul>
+<nav>
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+  </ul>
 </nav>
 
 <ul>
@@ -38,27 +44,152 @@
 </ul>
 </div>
 
-<section>
+<section id="about">
 
-    <figure>
-     <img src="images/headshot1.png" alt= "Headshot of Sharon Zou" width="25%" height="25%">
+  <h2 class="headers">About</h2>
+
+  <div class="about"> 
+    <figure style="text-align: center;">
+  <img src="images/headshot1.png" alt="Headshot of Sharon Zou" width="25%" height="25%">
+  <figcaption style="font-size: 150%; font-weight: bold;">Sharon Zou</figcaption>
     </figure>
 
-    <h1 style="text-align: center;">Sharon Zou</h1>
-
-</section>
-
-<section>
-    <p>Hello! I am an upcoming senior at Cornell University's College of Arts and Sciences, pursuing a major in Information Science with a concentration in Data Science and a double minor in Statistics and Business.
+    <p class="description">Hello! I am a rising senior at Cornell University, pursuing a major in Information Science with a concentration in Data Science and a double minor in Statistics and Business.
     On campus, I am involved in volunteering for Girls Who Code as a coding instructor, working at Cafe Jennie as a barista, and working at Carl Becker House as a house office assistant. 
     Past semesters, I had the opportunity to work under Professor Yian Yin as an undergraduate research assistant where I researched the impact of collective memory on music success and listener behavior. 
-    I created plots using Python (pandas, NumPy, Matplotlib) to illustrate listener trends and music popularity patterns from the 500+ GB of music listening data from MLHD and MusicBrainz.
-    This past summer, I had the opportunity to intern for Blue Cross Blue Shield of Alabama, working as a Business Intelligence intern in the Claims department. 
-    In this role, I ultized tools like SQL, Tableau, Excel, and SAP Crystal Reports to collect, clean, analyze and visualize Claims data. 
-    This summer, I will be interning at Verizon, working as a Solutions Architect intern. 
-    I am currently seeking full-time data-related roles starting summer 2026.</p>
+    Last summer, I had the opportunity to intern for Blue Cross Blue Shield of Alabama, working as a Business Intelligence intern in the Claims department and this summer, I will be interning at Verizon, working as a Solutions Architect intern. 
+    I am actively seeking full-time data-related roles starting Summer 2026.</p>
+
+    </div>
 </section>
 
-</body>
 
+<section id="skills">
+
+  <h2 class="headers">Skills</h2>
+
+    <div class="skills">
+    <div>
+    <h3>Languages:</h3>
+        <ul>
+            <li>Python</li>
+            <li>R</li>
+            <li>SQL</li>
+            <li>HTML</li>
+            <li>CSS</li>
+        </ul>
+    </div>
+
+    <div>
+    <h3>Tools and Softwares:</h3>
+        <ul>
+            <li>Excel</li>
+            <li>Tableau</li>
+            <li>Juypter</li>
+            <li>Git</li>
+            <li>R-Studio</li>
+        </ul>
+    </div>
+
+    <div>
+    <h3>Libraries:</h3>
+        <ul>
+            <li>Pandas</li>
+            <li>NumPy</li>
+            <li>Scikit-Learn</li>
+            <li>Matplotlib</li>
+            <li>Seaborn</li>
+            <li>Pytorch</li>
+            <li>dplyr</li>
+            <li>ggplot2</li>
+            <li>Plotly</li>
+            <li>Shiny</li>
+            <li>Shiny Dashboard</li>
+        </ul>
+    </div>
+    </div>
+</section>
+
+<section id="projects">
+
+  <h2 class="headers">Projects</h2>
+
+    <h1>Cheeseboard</h1>
+
+<div class="projects">
+     <!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="images/cheeseboard-country.png" alt= "Cheeseboard Map Page" style="width:100%">
+    <div class="text">Cheeseboard Map Page</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="images/cheeseboard-milk.png" alt= "Cheeseboard Milk Page" style="width:100%">
+    <div class="text">Cheeseboard Milk Page/div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="images/cheeseboard-data.png" alt= "Cheeseboard Data Page" style="width:100%">
+    <div class="text">Cheeseboard Data Page</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div> 
+
+    <!-- <figure>
+     <img src="images/cheeseboard-country.png" alt= "Cheeseboard Map Page" width="25%" height="25%">
+    </figure>
+    <figure>
+     <img src="images/cheeseboard-milk.png" alt= "Cheeseboard Milk Page" width="25%" height="25%">
+    </figure>
+    <figure>
+     <img src="images/cheeseboard-data.png" alt= "Cheeseboard Data Page" width="25%" height="25%">
+    </figure> -->
+</div>
+
+    <a href= "https://vmctck-sharonzou1.shinyapps.io/cheeseboard/">Cheeseboard </a>
+    <p>INFO 3312: Data Communication</p>
+    <p>Made using R, Shinyapps</p>
+
+</div>
+
+    <!-- <h1>TMDB Movie Browser</h1>
+
+    <figure>
+     <img src="images/tmdb-home.png" alt= "TMDB Movie Browser Home Page" width="25%" height="25%">
+    </figure>
+    <figure>
+     <img src="images/tmdb-trend.png" alt= "TMDB Movie Browser Trend Analyzer Page" width="25%" height="25%">
+    </figure>
+    <figure>
+     <img src="images/tmdb-small.png" alt= "TMDB Movie Browser Small Movie Discovery Page" width="25%" height="25%">
+    </figure>
+    <figure>
+     <img src="images/tmdb-data.png" alt= "TMDB Movie Browser Data Page" width="25%" height="25%">
+    </figure>
+
+    <a href= "https://aaron-hafkin.shinyapps.io/dank-panda-TMDB/" width="100%" height="500">TMDB Movie Browser</a>
+    <p>INFO 3312: Data Communication</p>
+    <p>Made using R, Shinyapps</p> -->
+
+</section>
+
+<script src="scripts/slideshow.js"></script>
+</body>
 </html>
